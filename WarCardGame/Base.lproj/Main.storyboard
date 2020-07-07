@@ -55,7 +55,7 @@
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=compact" spacing="20"/>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="pZl-TM-7f3">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="pZl-TM-7f3">
                                 <rect key="frame" x="20" y="746" width="79.666666666666671" height="96"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izr-Sm-UEk">
@@ -98,6 +98,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" constant="70"/>
                             </constraint>
                             <constraint firstItem="m6f-92-ylY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HVQ-22-8PO"/>
+                            <constraint firstItem="pZl-TM-7f3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HhG-yf-08x"/>
                             <constraint firstItem="m6f-92-ylY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="K0m-LO-QHl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Dbb-Z3-rv9" secondAttribute="bottom" constant="20" id="Ql0-bs-nhd"/>
                             <constraint firstItem="pZl-TM-7f3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ebx-yN-vDn"/>
