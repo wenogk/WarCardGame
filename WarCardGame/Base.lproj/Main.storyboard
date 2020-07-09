@@ -125,6 +125,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="LeftImageView" destination="2F1-vE-J1s" id="PRS-Wa-q9r"/>
+                        <outlet property="RightImageView" destination="OBc-j2-FmF" id="ImQ-e8-4o8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
