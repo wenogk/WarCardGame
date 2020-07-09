@@ -15,11 +15,19 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var RightImageView: UIImageView!
     
+    @IBOutlet weak var LeftScoreLabel: UILabel!
+    
+    @IBOutlet weak var RightScoreLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    
+    @IBAction func dealTapped(_ sender: UIButton) {
+        
+    }
+    
 }
 
